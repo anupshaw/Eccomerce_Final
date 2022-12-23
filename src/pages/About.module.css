@@ -1,0 +1,27 @@
+.About{
+    background-color: white;
+}
+.about{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutHeading{
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.imgPara p{
+text-align: justify;
+margin-bottom: 0px;
+}
+
+.imgPara img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+  margin: 5px;
+}

@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    background-color: white;
+    height: 370px;
+}
+
+.right{
+    display: flex;
+}
+
+.left{
+    margin: 5px 50px;
+}
+
+.right>p{
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+.btn1{
+ padding: 10px;
+ outline: none;
+ border: none;
+ color: white;
+ font-weight: bolder;
+ font-size: 20px;
+ border-radius: 25px;
+}
+
+.btn1:first-child{
+    margin-right: 10px;
+    background-color: orange;
+}
+
+.btn1:nth-child(2){
+    background-color:orangered
+}
+
+.addCartIcon{
+    margin-right: 5px;
+  
+}
+
+.buyNowIcon{
+    margin-right: 5px;
+
+}

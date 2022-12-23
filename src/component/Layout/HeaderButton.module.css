@@ -1,0 +1,38 @@
+.HeaderButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  padding: 0;
+  position: relative;
+  left: 300px;
+  border-radius: 20px;
+  border: none;
+  padding: 2px 6px;
+  border: 2px red solid;
+  transition: all 0.7s ease-in-out;
+}
+
+.HeaderButton:hover {
+  cursor: pointer;
+  border-color: orange;
+  background-color: black;
+  color: white;
+}
+.HeaderButton span {
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: large;
+  background-color: brown;
+  transition: all 0.7s ease-in-out;
+}
+
+.HeaderButton:hover span {
+  background-color: black;
+  color: white;
+}
+
+.HeaderButton h1 {
+  margin: 0;
+}

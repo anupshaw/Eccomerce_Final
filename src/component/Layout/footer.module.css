@@ -1,0 +1,39 @@
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}
+
+.footerlist{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerlist li{
+    margin: 0px 4px;
+}
+
+
+i{
+    font-size: 30px;
+}
+
+.footerlist li:first-child a i{
+    color: red;
+}
+
+
+.footerlist li:nth-child(2) a i{
+    color: #1DB954;
+}
+
+.footerlist li:nth-child(3) a i{
+    color:#4267B2;
+}
+
+
+

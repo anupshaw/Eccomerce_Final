@@ -1,0 +1,24 @@
+.productItem{
+  /* border: 1px black solid; */
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.itemName{
+  margin-bottom: 20px;
+}
+
+.itemfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.productImage{
+  margin-bottom: 10px;
+}
+
+
+.itemfooter{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerList li {
+  margin: 0px 15px;
+  border: none;
+}
+
+.headerList li a {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+.headerList li:hover
+{
+    /* width: 100px; */
+    transform:scaleX(1.1);
+}
+
+.authLogin{
+  position: absolute;
+  right: 100px;
+  font-size: 30px;
+  border-bottom:none;
+  outline:none ;
+  color: red;
+  z-index: 100;
+}
+
+.header a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logOutbtn{
+  position: absolute;
+  left: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 20px;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: #9f5ccc;
+  color: white;
+}
+
+
+
+.headerList li a:hover,
+.headerList li a:active,
+.active{
+    color: red;
+    border-bottom: 2px brown solid;
+    
+}
+
+
+.logOutbtn:hover {
+  background-color: #873abb;
+}
+
+

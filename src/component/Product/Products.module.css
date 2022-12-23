@@ -1,0 +1,27 @@
+.product{
+    background-color: white; 
+}
+.products{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  /* text-align: center; */
+  /* font-size: 10; */
+}
+
+
+.Category{
+    padding: 4px 0px;
+    background-color: white;
+}
+
+.Category h1{
+    text-align: center;
+    color: black;
+    margin: 0;
+}

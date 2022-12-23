@@ -1,0 +1,30 @@
+.home {
+  background-color: white;
+}
+.table {
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  height: 325px;
+}
+/* 
+table tr{
+    border-bottom: 1px black solid;
+} */
+
+.table tr td {
+padding: 20px 0px;
+}
+
+
+.table,.table tr  td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .table caption h1{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
